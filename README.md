@@ -2,7 +2,7 @@
 
 ## Setup
 
-1. Clone repo: `git clone https://github.com/yourname/woo-sync.git`
+1. Clone repo: `git clone https://github.com/aniketniet/woo-sync.git`
 2. Install dependencies: `composer install`
 3. Copy `.env.example` to `.env` and configure:
     - Database credentials

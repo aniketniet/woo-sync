@@ -15,6 +15,10 @@ class Product extends Model
         'status',
         'wc_product_id', // if you're saving this too
     ];
+
+    protected $casts = [
+        'price' => 'decimal:2'
+    ];
     public function user()
     {
         return $this->belongsTo(User::class);
